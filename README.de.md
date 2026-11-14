@@ -9,6 +9,8 @@
 
 Ein schlanker, datenschutzfreundlicher Ersatz für die Windows-Schrittaufzeichnung (`psr.exe`) unter **Windows 10 / 11** zur lokalen Dokumentation von Browser-Workflows und Desktop-Anwendungen — komplett ohne Cloud, Benutzerkonten oder Telemetrie.
 
+![Step Recorder Arbeitsbereich im Hell-Modus](screenshots/main-light.png)
+
 ---
 
 ## Schnellstart
@@ -54,6 +56,28 @@ Ein schlanker, datenschutzfreundlicher Ersatz für die Windows-Schrittaufzeichnu
 
 ---
 
+## Screenshots
+
+### Fenster- & Browser-Tab-Auswahl
+
+Wähle komplette Fenster oder einzelne Browser-Tabs direkt über Live-Vorschauen aus — inklusive Option zur Erfassung von **nur Seiteninhalt**:
+
+![Fenster- und Browser-Tab-Auswahl](screenshots/window-browser.png)
+
+### Getrennte UI- & Anleitungs-Sprachen
+
+Bedienoberfläche und exportierte Schritt-Texte lassen sich unabhängig voneinander einstellen, inklusive Theme-Wahl zwischen Hell und Dunkel:
+
+![Einstellungen für UI-Sprache, Anleitungs-Sprache und Theme](screenshots/settings.png)
+
+### Dark Mode (Ergänzung)
+
+Standardmäßig nutzt Step Recorder das helle Design; optional steht auch ein dunkles Design zur Verfügung:
+
+![Step Recorder Arbeitsbereich im Dark Mode](screenshots/main-dark.png)
+
+---
+
 ## Systemvoraussetzungen
 
 - **Betriebssystem:** Windows 10 oder Windows 11 (x64, x86 oder ARM64).
@@ -66,6 +90,7 @@ Ein schlanker, datenschutzfreundlicher Ersatz für die Windows-Schrittaufzeichnu
 ```text
 Step Recorder/
 ├── App/                        # Direkt startbare Windows-Anwendung (StepRecorder.App.exe + Runtime-DLLs)
+├── screenshots/                # UI-Screenshots für die README
 ├── README.md                   # Englische Projektdokumentation (GitHub-Standard)
 ├── README.de.md                # Deutsche Projektdokumentation
 ├── LICENSE                     # Rechtsverbindliche MIT-Lizenz (englisches Original)

@@ -9,6 +9,8 @@
 
 A lightweight, privacy-first **Windows 10 / 11** replacement for the legacy Windows Steps Recorder (`psr.exe`) for documenting browser workflows and desktop applications locally — without cloud accounts, background services, or telemetry.
 
+![Step Recorder workspace in Light Mode](screenshots/main-light.png)
+
 ---
 
 ## Quick Start
@@ -54,6 +56,28 @@ A lightweight, privacy-first **Windows 10 / 11** replacement for the legacy Wind
 
 ---
 
+## Screenshots
+
+### Target Window & Browser Tab Selection
+
+Pick an entire window or pin an open browser tab and capture **page content only** with live window previews:
+
+![Window and Browser Tab Selector](screenshots/window-browser.png)
+
+### Independent UI & Guide Languages
+
+Keep the application UI in one language while generating exported step instructions in another, and switch between Light and Dark themes:
+
+![Settings dialog with UI language, guide language, and theme selector](screenshots/settings.png)
+
+### Dark Mode (Supplementary Theme)
+
+Step Recorder uses Light Mode by default and includes a built-in Dark Mode option:
+
+![Step Recorder workspace in Dark Mode](screenshots/main-dark.png)
+
+---
+
 ## System Requirements
 
 - **OS:** Windows 10 or Windows 11 (x64, x86, or ARM64).
@@ -66,6 +90,7 @@ A lightweight, privacy-first **Windows 10 / 11** replacement for the legacy Wind
 ```text
 Step Recorder/
 ├── App/                        # Ready-to-run Windows application (StepRecorder.App.exe + runtime DLLs)
+├── screenshots/                # UI screenshots used in the README
 ├── README.md                   # English documentation (default on GitHub)
 ├── README.de.md                # German documentation
 ├── LICENSE                     # Binding MIT License (English original)
