@@ -1,0 +1,17 @@
+# Keep source code, tests, build artifacts, and research strictly local
+/Additional Stuff/
+
+# Exclude large debug symbols (~283 MB SkiaSharp PDBs) and unused macOS runtime
+*.pdb
+App/runtimes/osx/
+
+# IDE, temporary & OS files
+.vs/
+.vscode/
+.idea/
+*.log
+*.tmp
+[Tt]humbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
