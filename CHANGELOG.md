@@ -8,7 +8,7 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
-## [Unreleased]
+## [1.1.0] - 2026-11-15
 
 ### Added
 - **6-Tool Screenshot Editor & Color Palette:** Expanded the built-in image editor beyond **Redact** rectangles with **Box** (highlight frames), **Arrow** (directional arrows), **Note** (callout dialog with optional pointer line), **Spot** (sequential numbered badges `1, 2, 3` dropped by click or dragged as a numbered highlight box), and non-destructive **Crop**, plus 4 accent color swatches (`#EF4444`, `#2563EB`, `#D97706`, `#16A34A`).
@@ -23,7 +23,7 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ### Changed
 - Updated `README.md` and `README.de.md` to reflect all screenshot editor tools, multi-region cutout collages, undo/redo, live badge re-rendering, and step combining/splitting (`24ef071`).
-- Added `CHANGELOG.md` and `CHANGELOG.de.md` at the repository root.
+- Bumped application assembly/file/manifest version to `1.1.0` and added `CHANGELOG.md` and `CHANGELOG.de.md` at the repository root.
 
 ---
 
@@ -41,3 +41,6 @@ Initial public release of **Step Recorder (.NET 10 WPF)** (`e4d0114`).
 - **Self-Contained HTML & Multi-Page A4 PDF Export:** Offline single-file `.html` (Base64 PNG screenshots, deduplicated clickable URLs, lightbox zoom) and multi-page A4 `.pdf` saved to `%USERPROFILE%\Downloads` by default.
 - **Adaptive Windows UI:** `PerMonitorV2` DPI awareness, `System` / `Light` / `Dark` / Windows High-Contrast theme modes, local JSON settings in `%LOCALAPPDATA%\StepRecorder\settings.json`, temporary session files in `%TEMP%\StepRecorder\Sessions\`, and always-on-top **Recording HUD** excluded from screenshots.
 - **Documentation & Licensing:** English and German READMEs (`README.md`, `README.de.md`), `LICENSE` (MIT), `LICENSE.de.md` (German summary & third-party notices), and `.gitignore`.
+
+[1.1.0]: https://github.com/marcel-builds-stuff/step-recorder/compare/v1.0.0...v1.1.0
+[1.0.0]: https://github.com/marcel-builds-stuff/step-recorder/tree/v1.0.0

@@ -8,7 +8,7 @@ Das Format orientiert sich an [Keep a Changelog](https://keepachangelog.com/de/1
 
 ---
 
-## [Unveröffentlicht]
+## [1.1.0] - 2026-11-15
 
 ### Hinzugefügt
 - **Screenshot-Editor mit 6 Werkzeugen & Farbpalette:** Der integrierte Editor wurde um **Rahmen**, **Pfeil**, **Hinweis** (Textnotiz-Dialog mit optionaler Hinweislinie), **Nummer** (fortlaufende Nummern-Spots `1, 2, 3` per Klick oder als nummerierter Rahmen) und nicht-destruktiven **Zuschnitt** neben **Schwärzen** erweitert – inklusive 4 Markierungsfarben (`#EF4444`, `#2563EB`, `#D97706`, `#16A34A`).
@@ -23,7 +23,7 @@ Das Format orientiert sich an [Keep a Changelog](https://keepachangelog.com/de/1
 
 ### Geändert
 - `README.md` und `README.de.md` um alle Editor-Werkzeuge, Multi-Bereich-Zuschnitte, Rückgängig/Wiederholen, Rohaufnahme-Re-Badging sowie Schritt-Kombination und -Aufteilung aktualisiert (`24ef071`).
-- `CHANGELOG.md` und `CHANGELOG.de.md` im Repository-Root angelegt.
+- Anwendungs-, Assembly- und Manifest-Version auf `1.1.0` aktualisiert sowie `CHANGELOG.md` und `CHANGELOG.de.md` im Repository-Root angelegt.
 
 ---
 
@@ -41,3 +41,6 @@ Erste öffentliche Veröffentlichung von **Step Recorder (.NET 10 WPF)** (`e4d01
 - **Eigenständiger HTML- & A4-PDF-Export:** Offlinefähige Einzeldatei-`.html` (Base64-PNGs, deduplizierte klickbare Seiten-URLs, Lightbox-Zoom) und mehrseitiges A4-`.pdf` (Standardordner `%USERPROFILE%\Downloads`).
 - **Moderne Windows-Oberfläche:** `PerMonitorV2`-DPI-Unterstützung, Design-Modi (`System`, `Hell`, `Dunkel`, Windows-Hochkontrast), lokale Einstellungen unter `%LOCALAPPDATA%\StepRecorder\settings.json`, temporäre Sitzungsdaten in `%TEMP%\StepRecorder\Sessions\` und ein schwebendes **Aufnahme-HUD** (aus Screenshots ausgeblendet).
 - **Dokumentation & Lizenzen:** Englische und deutsche README (`README.md`, `README.de.md`), `LICENSE` (MIT), `LICENSE.de.md` (deutsche Übersicht & Drittanbieter-Hinweise) sowie `.gitignore`.
+
+[1.1.0]: https://github.com/marcel-builds-stuff/step-recorder/compare/v1.0.0...v1.1.0
+[1.0.0]: https://github.com/marcel-builds-stuff/step-recorder/tree/v1.0.0

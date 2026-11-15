@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v10.0": {
-      "StepRecorder.App/1.0.0": {
+      "StepRecorder.App/1.1.0": {
         "dependencies": {
           "FlaUI.UIA3": "5.0.0",
           "StepRecorder.Core": "1.0.0"
@@ -149,8 +149,8 @@
         },
         "runtime": {
           "StepRecorder.Core.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
           }
         },
         "resources": {
@@ -165,7 +165,7 @@
     }
   },
   "libraries": {
-    "StepRecorder.App/1.0.0": {
+    "StepRecorder.App/1.1.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
