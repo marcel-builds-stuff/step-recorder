@@ -32,11 +32,14 @@ A lightweight, privacy-first **Windows 10 / 11** replacement for the legacy Wind
   - Records left-clicks, double-clicks (merged cleanly within Windows double-click time and a 6 px radius), right-clicks, and debounced text-input bursts (900 ms debounce; flushes on `Enter`, `Tab`, `Escape`, or focus/click change; supports `AltGr` characters while ignoring shortcut hotkeys).
   - Automatically upgrades clicks inside editable controls (`Edit` / `ComboBox`) into text-input steps instead of producing duplicate steps.
   - **Password Field Protection:** Password controls (`IsPassword`) never log keystrokes or expose sensitive field labels in generated descriptions.
-- **Automatic Annotations & Built-In Redaction Editor:**
-  - Every captured screenshot is automatically annotated with element bounding highlights, click markers, and step badges.
-  - Drag **blackout redaction rectangles** directly onto any screenshot inside the editor (with Undo / Clear); redactions are permanently burned into exported HTML and PDF images.
-- **Post-Recording Step Editor:**
-  - Rename the guide title, edit individual step descriptions manually (with one-click reset back to auto-generated text), reorder steps (Up / Down), delete steps with automatic renumbering, or clear the session.
+- **Built-In Screenshot Annotation, Redaction & Crop Editor:**
+  - **Automatic Captures & Live Re-Badging:** Every captured screenshot is automatically annotated with element bounding highlights, click markers, and step badges while preserving raw captures so step badges cleanly re-render whenever steps are reordered, deleted, combined, or split.
+  - **6 Editing Tools & Color Palette:** Switch between **Redact** (solid black rectangles), **Box** (highlight frames), **Arrow** (directional arrows), **Note** (callout text notes with optional pointer line), **Spot** (sequential numbered badges `1, 2, 3` as points or highlighted boxes), and non-destructive **Crop** — with 4 accent color swatches.
+  - **Multi-Region Crop Cutout Collage:** Enable **`+ Region`** (or hold `Ctrl` while dragging in Crop mode) to select multiple areas on the same screenshot and stitch them into a clean cutout collage on export.
+  - **Unified Undo / Redo:** Full `Ctrl+Z` / `Ctrl+Y` history per step plus one-click *Reset Crop* and *Clear All*; all edits are permanently flattened into exported HTML and PDF images.
+- **Post-Recording Step Editor & Step Combining:**
+  - Rename the guide title, edit individual step descriptions manually (with one-click reset back to auto-generated text), reorder steps (Up / Down), delete steps with automatic badge renumbering, or clear the session.
+  - **Combine & Split Steps:** Multi-select steps in the step list (`Ctrl` / `Shift`) to combine them into a single compact step — either **Overlay on one screenshot** (`a, b, c` markers on the same form/window) or **Arrange as collage** side by side with flow arrows for separate screens. Combined steps format sub-steps as `a) …`, `b) …`, adapt dynamically on guide language switches, and can be **Split** back into individual steps at any time.
 - **Independent UI & Guide Languages (`de-DE` / `en-US`):**
   - Switch the app interface language and the generated guide language independently at runtime. Changing the guide language dynamically regenerates unedited step descriptions while preserving manual edits.
 - **Single-File HTML & Multi-Page A4 PDF Export:**
@@ -51,7 +54,7 @@ A lightweight, privacy-first **Windows 10 / 11** replacement for the legacy Wind
 
 1. **Select a Target Window** via the dropdown, the visual **Window Browser**, or **Click-to-Pick** (for browsers, optionally enable *Page Content Only* or pin a single tab).
 2. **Start Recording:** The main window minimizes cleanly and the floating **Recording HUD** shows live status, step count, *Pause / Resume*, and *Stop*.
-3. **Review, Edit & Redact:** Adjust step descriptions, reorder or remove steps, optionally toggle URL export, and black out sensitive regions directly on screenshots.
+3. **Review, Annotate & Combine:** Adjust step descriptions, reorder, remove, or combine related steps (*Overlay* or *Collage*), redact sensitive regions, add boxes/arrows/notes/numbered spots, or crop to key regions directly in the editor.
 4. **Export:** Save as a self-contained **HTML** guide or an **A4 PDF**.
 
 ---

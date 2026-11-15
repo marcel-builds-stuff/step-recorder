@@ -32,11 +32,14 @@ Ein schlanker, datenschutzfreundlicher Ersatz für die Windows-Schrittaufzeichnu
   - Erfasst Linksklicks, Doppelklicks (automatisch zusammengeführt innerhalb der Windows-Doppelklickzeit und 6 px Radius), Rechtsklicks sowie zusammengefasste Texteingaben (900 ms Debounce; Abschluss per `Enter`, `Tab`, `Escape` oder Klick/Fokuswechsel; unterstützt `AltGr`-Zeichen und ignoriert Steuerungs-Hotkeys).
   - Klicks in bearbeitbare Felder (`Edit` / `ComboBox`) mit anschließender Eingabe werden sauber zum Texteingabe-Schritt aufgewertet, statt doppelte Schritte zu erzeugen.
   - **Passwortschutz:** Bei Passwortfeldern (`IsPassword`) werden weder eingegebene Zeichen noch sensible Feldbezeichnungen in die Schrittbeschreibung übernommen.
-- **Automatische Markierungen & integrierte Schwärzung:**
-  - Jeder Screenshot erhält automatisch Hervorhebungsrahmen um das bediente Element, Klick-Marker und nummerierte Schritt-Badges.
-  - Ziehen Sie vor dem Export **Schwärzungsrechtecke** direkt über den Screenshot (mit Rückgängig / Alle löschen); beim Export werden die geschwärzten Bereiche fest in die PNG-Bilder eingebrannt.
-- **Nachbearbeitung im Editor:**
-  - Anleitungstitel anpassen, einzelne Schritttexte manuell bearbeiten (jederzeit auf den automatischen Text zurücksetzbar), Schritte umsortieren (hoch / runter), löschen (inkl. automatischer Neunummerierung) oder die gesamte Sitzung leeren.
+- **Integrierter Screenshot-, Markierungs- & Zuschnitt-Editor:**
+  - **Automatische Markierungen & Raw-Neunummerierung:** Jeder aufgenommene Screenshot erhält automatisch Hervorhebungsrahmen um das bediente Element, Klick-Marker und Schritt-Badges. Zusätzlich bleibt eine unannotierte Rohaufnahme erhalten, sodass Schritt-Badges beim Umsortieren, Löschen, Kombinieren oder Aufteilen sauber neu gerendert werden.
+  - **6 Bearbeitungswerkzeuge & Farbauswahl:** Direkt im Editor stehen **Schwärzen** (schwarze Rechtecke), **Rahmen**, **Pfeil**, **Hinweis** (Textnotiz optional mit Hinweislinie), **Nummer** (fortlaufende Nummern-Spots `1, 2, 3` per Klick oder als nummerierter Rahmen) und nicht-destruktiver **Zuschnitt** zur Verfügung — inklusive 4 Markierungsfarben.
+  - **Multi-Bereich-Zuschnitt (Collage):** Aktivieren Sie **`+ Bereich`** (oder halten Sie `Strg` beim Ziehen im Zuschnitt-Werkzeug), um mehrere getrennte Ausschnitte auf einem Screenshot zu markieren und beim Export kompakt als Collage zusammenzuführen.
+  - **Rückgängig / Wiederholen (`Strg+Z` / `Strg+Y`):** Durchgängiger Verlauf pro Schritt sowie *Zuschnitt aufheben* und *Alle entfernen*; beim Export werden alle Bearbeitungen fest in die HTML- und PDF-Bilder eingebrannt.
+- **Nachbearbeitung & Schritte kombinieren:**
+  - Anleitungstitel anpassen, einzelne Schritttexte manuell bearbeiten (jederzeit auf den automatischen Text zurücksetzbar), Schritte umsortieren (hoch / runter), löschen (inkl. automatischer Neunummerierung der Badges) oder die gesamte Sitzung leeren.
+  - **Schritte kombinieren & wieder aufteilen:** Markieren Sie mehrere Schritte in der Liste (`Strg` / `Umschalt`), um sie zu einem kompakten Schritt zusammenzufassen — wahlweise **auf einem Bild überlagert** (`a, b, c`-Markierungen für dieselbe Maske/dasselbe Formular) oder **als Collage nebeneinander** mit Ablaufpfeilen für verschiedene Fenster. Kombinierte Beschreibungen (`a) …`, `b) …`) reagieren dynamisch auf Sprachwechsel und lassen sich jederzeit wieder über **Aufteilen** in die Einzelschritte zerlegen.
 - **Unabhängige UI- & Anleitungssprache (`de-DE` / `en-US`):**
   - Programmoberfläche und erzeugte Anleitungssprache sind unabhängig voneinander einstellbar. Ein Wechsel der Anleitungssprache übersetzt automatisch generierte Schritte sofort neu, während manuell bearbeitete Texte erhalten bleiben.
 - **Einzeldatei-HTML- & mehrseitiger A4-PDF-Export:**
@@ -51,7 +54,7 @@ Ein schlanker, datenschutzfreundlicher Ersatz für die Windows-Schrittaufzeichnu
 
 1. **Zielfenster wählen** über Dropdown, den visuellen **Fenster-Browser** oder **Fenster per Klick wählen** (bei Browsern optional *Nur Seiteninhalt* oder einen einzelnen Tab fixieren).
 2. **Aufnahme starten:** Das Hauptfenster minimiert sich und das schwebende **Aufnahme-HUD** zeigt Status, Schrittzähler, *Pause / Fortsetzen* und *Stopp*.
-3. **Prüfen, bearbeiten & schwärzen:** Texte korrigieren, Reihenfolge anpassen, unnötige Schritte entfernen und vertrauliche Bildbereiche direkt im Screenshot schwärzen.
+3. **Prüfen, annotieren & kombinieren:** Texte korrigieren, Schritte umsortieren, entfernen oder zusammenfassen (*Überlagerung* / *Collage*), vertrauliche Bildbereiche schwärzen, Rahmen/Pfeile/Hinweise/Nummern setzen oder Screenshots zuschneiden.
 4. **Exportieren:** Anleitung als eigenständige **HTML-Datei** oder **A4-PDF** speichern.
 
 ---
