@@ -1,4 +1,4 @@
-[English](README.md) | **Deutsch**
+[English](README.md) | **Deutsch** · [Änderungsprotokoll (Changelog)](CHANGELOG.de.md)
 
 # Step Recorder
 
@@ -96,6 +96,8 @@ Step Recorder/
 ├── screenshots/                # UI-Screenshots für die README
 ├── README.md                   # Englische Projektdokumentation (GitHub-Standard)
 ├── README.de.md                # Deutsche Projektdokumentation
+├── CHANGELOG.md                # Änderungsprotokoll (Englisch)
+├── CHANGELOG.de.md             # Änderungsprotokoll (Deutsch)
 ├── LICENSE                     # Rechtsverbindliche MIT-Lizenz (englisches Original)
 └── LICENSE.de.md               # Deutsche Lizenz-Zusammenfassung & Drittanbieter-Hinweise
 ```

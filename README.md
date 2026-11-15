@@ -1,4 +1,4 @@
-**English** | [Deutsch](README.de.md)
+**English** | [Deutsch](README.de.md) · [Changelog](CHANGELOG.md)
 
 # Step Recorder
 
@@ -96,6 +96,8 @@ Step Recorder/
 ├── screenshots/                # UI screenshots used in the README
 ├── README.md                   # English documentation (default on GitHub)
 ├── README.de.md                # German documentation
+├── CHANGELOG.md                # Version & change history (English)
+├── CHANGELOG.de.md             # Version & change history (German)
 ├── LICENSE                     # Binding MIT License (English original)
 └── LICENSE.de.md               # German license overview & third-party notices
 ```
